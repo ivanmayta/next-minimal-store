@@ -32,7 +32,7 @@ export function ProductImage({
     >
       <Image
         src={product.image}
-        alt={product.name}
+        alt={product.title}
         fill
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="object-contain transition-opacity duration-200 aspect-square"
